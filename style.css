@@ -1,0 +1,89 @@
+        nav { background: #0e12e7; 
+                padding: 1rem; 
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+        }
+                
+        nav a { color: rgb(245, 245, 245); 
+                margin-right: 20px; 
+                text-decoration: none; 
+                font-weight: bold;}
+        nav a:hover { color: #ff9900; }
+        body { font-family: cooper; color: rgb(0, 0, 0); padding: 20px;background-image: url(ph4.jpg); background-size: 100% 80%; background-position: center; background-repeat: no-repeat; height: 100vh; margin: 0;}
+
+h1 {
+    font-size: 48px;
+}
+
+nav.login-nav {
+    color: black;
+    padding: 8px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    background-color: #ff9900;
+    margin-left: auto;
+}
+
+nav.login-nav:hover {
+    background-color: #e68a00;
+}
+ .intro-text {
+         max-width: 700px;
+         margin: 20px;
+         text-align: left;
+
+        }
+ .section-title {
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 40px;
+            color: rgb(0, 0, 0);
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card-link {
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .card {
+            background: white;
+            width: 230px;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+        }
+
+        .card img {
+            width: 80px;
+            margin-bottom: 15px;
+            object-fit: cover;
+            align-items: top;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+            color: #040507;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
